@@ -1,0 +1,76 @@
+
+========================
+HTML - Notes & Examples
+========================
+- <!DOCTYPE html>: Defines the document as HTML5.
+- <html>, <head>, <body>: Main structure.
+- <h1> to <h6>: Headings.
+- <p>: Paragraph
+- <a href="url">Link</a>
+- <img src="img.jpg" alt="desc">
+- <form action="submit.php" method="post">...</form>
+
+Example:
+<form method="post" action="submit.php">
+  <input type="text" name="username">
+  <input type="submit" value="Send">
+</form>
+
+========================
+CSS - Notes & Examples
+========================
+- Selectors: target elements (p, .class, #id)
+- Properties: color, margin, padding, etc.
+- Box model: content > padding > border > margin
+- Units: px, em, rem, %, vh, vw
+
+Example:
+.card {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+===============================
+JavaScript - Notes & Examples
+===============================
+- Variables: let, const, var
+- Functions: function greet() { }
+- Events: onclick, onsubmit
+- DOM: document.getElementById()
+
+Example:
+document.getElementById("btn").addEventListener("click", function() {
+  alert("Button clicked!");
+});
+
+========================
+PHP - Notes & Examples
+========================
+- Starts with <?php ... ?>
+- Variables start with $
+- echo to output content
+- Server-side scripting
+
+Example:
+<?php
+  $name = "Maria";
+  echo "Hello, $name!";
+?>
+
+=============================
+MySQL - Notes & Examples
+=============================
+- CREATE TABLE, INSERT, SELECT, UPDATE, DELETE
+- Used with PHP via mysqli or PDO
+- Fields: INT, VARCHAR, DATE, TEXT
+
+Example:
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100)
+);
+
+SELECT * FROM users WHERE id = 1;
+

@@ -1,0 +1,32 @@
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  .custom-bg {
+    background-color: #2ec1ac;
+    border: 1px solid #2ec1ac;
+  }
+
+  .custom-bg:hover {
+    background-color: #279e8c;
+    border-color: #279e8c;
+  }
